@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AliNino.App/1.0.0": {
+        "dependencies": {
+          "AliNino.Service": "1.0.0"
+        },
+        "runtime": {
+          "AliNino.App.dll": {}
+        }
+      },
+      "AliNino.Core/1.0.0": {
+        "runtime": {
+          "AliNino.Core.dll": {}
+        }
+      },
+      "AliNino.Data/1.0.0": {
+        "dependencies": {
+          "AliNino.Core": "1.0.0"
+        },
+        "runtime": {
+          "AliNino.Data.dll": {}
+        }
+      },
+      "AliNino.Service/1.0.0": {
+        "dependencies": {
+          "AliNino.Data": "1.0.0"
+        },
+        "runtime": {
+          "AliNino.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AliNino.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AliNino.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AliNino.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AliNino.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

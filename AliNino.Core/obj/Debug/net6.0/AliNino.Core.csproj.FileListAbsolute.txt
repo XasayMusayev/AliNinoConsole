@@ -1,0 +1,12 @@
+C:\Users\Xasay Musayev\Desktop\AliNino.App\AliNino.Core\obj\Debug\net6.0\AliNino.Core.csproj.AssemblyReference.cache
+C:\Users\Xasay Musayev\Desktop\AliNino.App\AliNino.Core\obj\Debug\net6.0\AliNino.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xasay Musayev\Desktop\AliNino.App\AliNino.Core\obj\Debug\net6.0\AliNino.Core.AssemblyInfoInputs.cache
+C:\Users\Xasay Musayev\Desktop\AliNino.App\AliNino.Core\obj\Debug\net6.0\AliNino.Core.AssemblyInfo.cs
+C:\Users\Xasay Musayev\Desktop\AliNino.App\AliNino.Core\obj\Debug\net6.0\AliNino.Core.csproj.CoreCompileInputs.cache
+C:\Users\Xasay Musayev\Desktop\AliNino.App\AliNino.Core\bin\Debug\net6.0\AliNino.Core.deps.json
+C:\Users\Xasay Musayev\Desktop\AliNino.App\AliNino.Core\bin\Debug\net6.0\AliNino.Core.dll
+C:\Users\Xasay Musayev\Desktop\AliNino.App\AliNino.Core\bin\Debug\net6.0\AliNino.Core.pdb
+C:\Users\Xasay Musayev\Desktop\AliNino.App\AliNino.Core\obj\Debug\net6.0\AliNino.Core.dll
+C:\Users\Xasay Musayev\Desktop\AliNino.App\AliNino.Core\obj\Debug\net6.0\refint\AliNino.Core.dll
+C:\Users\Xasay Musayev\Desktop\AliNino.App\AliNino.Core\obj\Debug\net6.0\AliNino.Core.pdb
+C:\Users\Xasay Musayev\Desktop\AliNino.App\AliNino.Core\obj\Debug\net6.0\ref\AliNino.Core.dll
