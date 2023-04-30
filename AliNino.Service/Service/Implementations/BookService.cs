@@ -21,7 +21,7 @@ namespace AliNino.Service.Implementations
 
             BookWriter bookWriter = await _repository.GetAsync(x => x.Id == id);
             if (bookWriter==null)
-                return "Book Writer not found ";
+                return "Book Writer not found";
             if (string.IsNullOrWhiteSpace(name))
                 return "Add valid Name";
             if (price <= 0)
@@ -122,6 +122,7 @@ namespace AliNino.Service.Implementations
             book.DiscountPrice=discountprice;
             book.Category=category;
             book.inStock=instock;
+            Console.ForegroundColor = ConsoleColor.Green;
 
             return "Book updated";
 
@@ -146,7 +147,7 @@ namespace AliNino.Service.Implementations
             {
                 return $"{book.Name} sold  ";
             }
-            return "There is not book in stock";
+            return "This book is not in stock";
 
         }
         public async Task ShowAllAsync()
@@ -155,7 +156,7 @@ namespace AliNino.Service.Implementations
             {
                 foreach (var prod in item.Books)
                 {
-                    HelperColor.PrintLine(ConsoleColor.Cyan, item);
+                    HelperColor.PrintLine(ConsoleColor.Cyan, prod);
                 }
             }
         }

@@ -28,6 +28,7 @@ namespace AliNino.Core.Models
         public override string ToString()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine();
             return $"Book Writer --> id - {Id} , Name - {Name} , Surname - {Surname} , Age - {Age} , Created Date - {CreatedDate} , Update Date - {UpdatedDate}";
         }
     }

@@ -56,6 +56,13 @@ namespace AliNino.Service.Implementations
                 HelperColor.PrintLine(ConsoleColor.DarkMagenta, item);
             }
         }
+        public async Task ShowAllid()
+        {
+            foreach (var item in await _repository.GetAllAsync())
+            {
+                HelperColor.PrintLine(ConsoleColor.DarkMagenta, item.Id);
+            }
+        }
 
         public async Task<BookWriter> ShowAsync(int id)
         {
@@ -80,6 +87,12 @@ namespace AliNino.Service.Implementations
             {
                 HelperColor.PrintLine(ConsoleColor.DarkRed,"Book Writer not found");
                 return null;
+            }
+            if (bookWriter.Books.Count==0)
+            {
+                HelperColor.PrintLine(ConsoleColor.DarkRed, "This Book Writer does not have any book");
+                return null;
+
             }
             Console.ForegroundColor = ConsoleColor.Cyan;
 

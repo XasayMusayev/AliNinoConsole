@@ -40,18 +40,19 @@ namespace AliNino.Core.Models
             {
                 if (inStock)
                 {
-                    HelperColor.PrintLine(ConsoleColor.Cyan, $"Book --> Name - {Name} , *Discount* *Price* - {DiscountPrice} $ , Category - {Category} , There is book in * Stock *");
+                    Console.WriteLine();
+                    HelperColor.PrintLine(ConsoleColor.Cyan, $"id = {Id} Book --> Name - {Name} , *Discount* *Price* - {DiscountPrice} $ , Category - {Category}");
                     Console.WriteLine("-------------");
                     Console.ForegroundColor = ConsoleColor.Cyan;
-                    return $"{Bookwriter}";
+                    return $" This book is in * Stock * ";
 
                 }
                 else
                 {
-                    HelperColor.PrintLine(ConsoleColor.Cyan, $"Book --> Name - {Name} , * Discount * * Price * - {DiscountPrice} $ , Category - {Category} , There is * not * book in Stock");
+                    HelperColor.PrintLine(ConsoleColor.Cyan, $"id = {Id} Book --> Name - {Name} , * Discount * * Price * - {DiscountPrice} $ , Category - {Category} ");
                     Console.WriteLine("-------------");
                     Console.ForegroundColor = ConsoleColor.Cyan;
-                    return $"{Bookwriter}";
+                    return $"This book is * not *  in Stock";
                 }
 
             }
@@ -59,18 +60,19 @@ namespace AliNino.Core.Models
             {
                 if (inStock)
                 {
-                    HelperColor.PrintLine(ConsoleColor.Cyan, $"Book --> Name - {Name} , Price - {Price} $ , Category - {Category} , There is book in * Stock *");
+                    Console.WriteLine();
+                    HelperColor.PrintLine(ConsoleColor.Cyan, $"id = {Id} Book --> Name - {Name} , Price - {Price} $ , Category - {Category} ");
                     Console.WriteLine("-------------");
                     Console.ForegroundColor = ConsoleColor.Cyan;
-                    return $"{Bookwriter}";
+                    return $" This book is in * Stock *";
 
                 }
                 else
                 {
-                    HelperColor.PrintLine(ConsoleColor.Cyan, $"Book --> Name - {Name} , Price - {Price} $ , Category - {Category} , There is * not * book in Stock");
+                    HelperColor.PrintLine(ConsoleColor.Cyan, $"id =  {Id}  Book --> Name - {Name} , Price - {Price} $ , Category - {Category} ");
                     Console.WriteLine("-------------");
                     Console.ForegroundColor = ConsoleColor.Cyan;
-                    return $"{Bookwriter}";
+                    return $"This book is * not * in Stock";
                 }
 
 
