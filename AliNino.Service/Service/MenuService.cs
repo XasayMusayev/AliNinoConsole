@@ -184,18 +184,12 @@ namespace AliNino.Service.Service
 
 
                 HelperColor.PrintLine(ConsoleColor.DarkBlue, "0. --> Close App <-- ");
-                HelperColor.PrintLine(ConsoleColor.Blue, "1. --> Create Book Writer <-- ");
-                HelperColor.PrintLine(ConsoleColor.Blue, "2. --> Show Book Writer <-- ");
-                HelperColor.PrintLine(ConsoleColor.Blue, "3. --> Show Book Writer by id <-- ");
-                HelperColor.PrintLine(ConsoleColor.Blue, "4. --> Show Book Writer's books <-- ");
-                HelperColor.PrintLine(ConsoleColor.Blue, "5. --> Update Book Writer <-- ");
-                HelperColor.PrintLine(ConsoleColor.Blue, "6. --> Remove Book Writer <-- ");
-                HelperColor.PrintLine(ConsoleColor.Blue, "7. --> Create Book <-- ");
-                HelperColor.PrintLine(ConsoleColor.Blue, "8. --> Update Book <-- ");
-                HelperColor.PrintLine(ConsoleColor.Blue, "9. --> Get Book by Book Writer <-- ");
-                HelperColor.PrintLine(ConsoleColor.Blue, "10. --> Remove Book <-- ");
-                HelperColor.PrintLine(ConsoleColor.Blue, "11. --> Show all Books <-- ");
-                HelperColor.PrintLine(ConsoleColor.Blue, "12. --> Buy Book <-- ");
+                HelperColor.PrintLine(ConsoleColor.Blue, "1. --> Show Book Writer <-- ");
+                HelperColor.PrintLine(ConsoleColor.Blue, "2. --> Show Book Writer by id <-- ");
+                HelperColor.PrintLine(ConsoleColor.Blue, "3. --> Show Book Writer's books <-- ");
+                HelperColor.PrintLine(ConsoleColor.Blue, "4. --> Get Book by Book Writer <-- ");
+                HelperColor.PrintLine(ConsoleColor.Blue, "5. --> Show all Books <-- ");
+                HelperColor.PrintLine(ConsoleColor.Blue, "6. --> Buy Book <-- ");
                 command = Console.ReadLine();
             }
         }
