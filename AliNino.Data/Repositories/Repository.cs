@@ -1,4 +1,5 @@
-﻿using AliNino.Core.Models.Base;
+﻿using AliNino.Core.Helper;
+using AliNino.Core.Models.Base;
 using AliNino.Core.Repositories;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,14 @@ namespace AliNino.Data.Repositories
     public class Repository<T> : IRepository<T> where T : BaseModel
     {
         private readonly static List<T> _items = new List<T>(); 
+
+        public  async Task<int> Test()
+        {
+            
+            return  _items.Count;
+            
+            
+        }
         public async Task AddAsync(T model)
         {
             _items.Add(model);

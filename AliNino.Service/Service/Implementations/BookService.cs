@@ -157,8 +157,21 @@ namespace AliNino.Service.Implementations
                 foreach (var prod in item.Books)
                 {
                     HelperColor.PrintLine(ConsoleColor.Cyan, prod);
+                    
                 }
             }
+        }
+        public async Task<bool> TestWriter()
+        {
+            int test = await _repository.Test();
+
+            if (test == 0)
+            {
+
+
+                return true;
+            }
+            return false;
         }
 
 

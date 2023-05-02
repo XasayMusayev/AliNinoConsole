@@ -1,5 +1,6 @@
 ﻿using AliNino.Core.Helper;
 using AliNino.Core.Models;
+using AliNino.Data.Repositories;
 using AliNino.Data.Repositories.BookWriterRepos;
 using AliNino.Service.Interfaces;
 using System;
@@ -54,13 +55,26 @@ namespace AliNino.Service.Implementations
             foreach (var item in  await _repository.GetAllAsync())
             {
                 HelperColor.PrintLine(ConsoleColor.DarkMagenta, item);
+
             }
+        }
+        public async Task<bool> TestWriter()
+        {
+            int test = await _repository.Test();
+            
+            if (test == 0)
+            {
+
+
+                return true;
+            }
+            return false;
         }
         public async Task ShowAllid()
         {
             foreach (var item in await _repository.GetAllAsync())
             {
-                HelperColor.PrintLine(ConsoleColor.DarkMagenta, item.Id);
+                HelperColor.Print(ConsoleColor.DarkMagenta, $"{ item.Id} , ");
             }
         }
 
@@ -81,6 +95,7 @@ namespace AliNino.Service.Implementations
 
         public async Task<List<Book>> ShowBooksAsync(int id)
         {
+            
             BookWriter bookWriter=await _repository.GetAsync(b=>b.Id==id);
 
             if (bookWriter==null)
@@ -91,6 +106,7 @@ namespace AliNino.Service.Implementations
             if (bookWriter.Books.Count==0)
             {
                 HelperColor.PrintLine(ConsoleColor.DarkRed, "This Book Writer does not have any book");
+                
                 return null;
 
             }

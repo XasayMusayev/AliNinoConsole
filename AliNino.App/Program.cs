@@ -21,7 +21,7 @@ if (request=="1")
 
         if (!result)
         {
-            HelperColor.PrintLine(ConsoleColor.DarkYellow, "   *_*   Connect as User   *_*   ");
+            HelperColor.PrintLine(ConsoleColor.DarkYellow, "        Connect as User   *_*   ");
             Console.WriteLine("   2   -     Join as user   ");
 
 
@@ -38,8 +38,6 @@ if (request=="1")
 
     }
 }
-
-
 if (menuService.IsAdmin)
 {
     menuService.ShowMenuAdmin();

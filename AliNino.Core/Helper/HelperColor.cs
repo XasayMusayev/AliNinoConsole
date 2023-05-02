@@ -14,5 +14,11 @@ namespace AliNino.Core.Helper
             Console.WriteLine(text);
             Console.ResetColor();
         }
+        public static void Print(ConsoleColor color,object text)
+        {
+            Console.ForegroundColor= color;
+            Console.Write(text);
+            Console.ResetColor();
+        }
     }
 }
