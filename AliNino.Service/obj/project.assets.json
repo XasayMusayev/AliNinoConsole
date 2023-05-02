@@ -45,19 +45,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Xasay Musayev\\.nuget\\packages\\": {}
+    "C:\\Users\\khasayum\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Xasay Musayev\\Desktop\\AliNino.App\\AliNino.Service\\AliNino.Service.csproj",
+      "projectUniqueName": "C:\\Users\\khasayum\\Source\\Repos\\AliNinoConsole\\AliNino.Service\\AliNino.Service.csproj",
       "projectName": "AliNino.Service",
-      "projectPath": "C:\\Users\\Xasay Musayev\\Desktop\\AliNino.App\\AliNino.Service\\AliNino.Service.csproj",
-      "packagesPath": "C:\\Users\\Xasay Musayev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Xasay Musayev\\Desktop\\AliNino.App\\AliNino.Service\\obj\\",
+      "projectPath": "C:\\Users\\khasayum\\Source\\Repos\\AliNinoConsole\\AliNino.Service\\AliNino.Service.csproj",
+      "packagesPath": "C:\\Users\\khasayum\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\khasayum\\Source\\Repos\\AliNinoConsole\\AliNino.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Xasay Musayev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\khasayum\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -71,8 +71,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Xasay Musayev\\Desktop\\AliNino.App\\AliNino.Data\\AliNino.Data.csproj": {
-              "projectPath": "C:\\Users\\Xasay Musayev\\Desktop\\AliNino.App\\AliNino.Data\\AliNino.Data.csproj"
+            "C:\\Users\\khasayum\\Source\\Repos\\AliNinoConsole\\AliNino.Data\\AliNino.Data.csproj": {
+              "projectPath": "C:\\Users\\khasayum\\Source\\Repos\\AliNinoConsole\\AliNino.Data\\AliNino.Data.csproj"
             }
           }
         }
@@ -92,8 +92,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -102,7 +101,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

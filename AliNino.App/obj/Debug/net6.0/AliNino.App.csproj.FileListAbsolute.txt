@@ -20,3 +20,25 @@ C:\Users\Xasay Musayev\Desktop\AliNino.App\AliNino.App\obj\Debug\net6.0\refint\A
 C:\Users\Xasay Musayev\Desktop\AliNino.App\AliNino.App\obj\Debug\net6.0\AliNino.App.pdb
 C:\Users\Xasay Musayev\Desktop\AliNino.App\AliNino.App\obj\Debug\net6.0\AliNino.App.genruntimeconfig.cache
 C:\Users\Xasay Musayev\Desktop\AliNino.App\AliNino.App\obj\Debug\net6.0\ref\AliNino.App.dll
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\bin\Debug\net6.0\AliNino.App.exe
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\bin\Debug\net6.0\AliNino.App.deps.json
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\bin\Debug\net6.0\AliNino.App.runtimeconfig.json
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\bin\Debug\net6.0\AliNino.App.dll
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\bin\Debug\net6.0\AliNino.App.pdb
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\bin\Debug\net6.0\AliNino.Core.dll
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\bin\Debug\net6.0\AliNino.Data.dll
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\bin\Debug\net6.0\AliNino.Service.dll
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\bin\Debug\net6.0\AliNino.Service.pdb
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\bin\Debug\net6.0\AliNino.Core.pdb
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\bin\Debug\net6.0\AliNino.Data.pdb
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\obj\Debug\net6.0\AliNino.App.csproj.AssemblyReference.cache
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\obj\Debug\net6.0\AliNino.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\obj\Debug\net6.0\AliNino.App.AssemblyInfoInputs.cache
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\obj\Debug\net6.0\AliNino.App.AssemblyInfo.cs
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\obj\Debug\net6.0\AliNino.App.csproj.CoreCompileInputs.cache
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\obj\Debug\net6.0\AliNino.App.csproj.CopyComplete
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\obj\Debug\net6.0\AliNino.App.dll
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\obj\Debug\net6.0\refint\AliNino.App.dll
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\obj\Debug\net6.0\AliNino.App.pdb
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\obj\Debug\net6.0\AliNino.App.genruntimeconfig.cache
+C:\Users\khasayum\Source\Repos\AliNinoConsole\AliNino.App\obj\Debug\net6.0\ref\AliNino.App.dll

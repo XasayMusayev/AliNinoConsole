@@ -197,8 +197,11 @@ namespace AliNino.Service.Service
                 HelperColor.PrintLine(ConsoleColor.Blue, "4. --> Get Book by Book Writer <-- ");
                 HelperColor.PrintLine(ConsoleColor.Blue, "5. --> Show all Books <-- ");
                 HelperColor.PrintLine(ConsoleColor.Blue, "6. --> Buy Book <-- ");
+<<<<<<< HEAD
                 HelperColor.PrintLine(ConsoleColor.Blue, "  > 20 < . --> Login Admin <-- ");
 
+=======
+>>>>>>> 588ae35109040539a1a8ceb7f10736c5c98bd1a5
                 command = Console.ReadLine();
                 Console.Clear();
             }
